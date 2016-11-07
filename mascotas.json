@@ -1,0 +1,106 @@
+[
+  {
+    "nombre": "Canario silvestre",
+    "descripcion": "El canario silvestre o serín canario (Serinus canaria) es una especie de ave paseriforme de la familia de los fringílidos (Fringillidae). A pesar de su nombre tanto común como científico es autóctono de varios subarchipiélagos de la Macaronesia: las islas Canarias, Azores y Madeira, y no solo de las primeras. Su pariente más cercano es verdecillo europeo (Serinus serinus). El canario se considera, según una ley del Gobierno de Canarias, el símbolo natural del archipiélago canario, junto con la palmera canaria. Su hábitat natural se ubica en áreas semiabiertas, como huertos y arboledas. Hace el nido en arbustos o árboles.",
+    "categoria": "aves",
+    "precio": 21,
+    "tipo": "estandar",
+    "edad": 0,
+    "municipio": "León",
+    "publicacion": "05/11/2016 20:07:40",
+    "contacto": "francisco",
+    "images": [
+      "images/canario1.jpg",
+      "images/canario2.jpg",
+      "images/canario3.jpg",
+      "images/canario4.jpg"
+    ],
+    "canPurchase": true,
+    "soldOut": false
+  },
+  {
+    "nombre": "Husky siberiano",
+    "descripcion": "Husky es un término general para mencionar a diferentes tipos de perros utilizados tradicionalmente como perro de trineo1 en regiones septentrionales árticas y subárticas, aunque en la actualidad se crían también como mascotas.",
+    "categoria": "perros",
+    "precio": 625,
+    "tipo": "oferta",
+    "edad": 0,
+    "municipio": "Pamplona",
+    "publicacion": "05/11/2016 20:21:11",
+    "contacto": "maria",
+    "images": [
+      "images/husky1.jpg",
+      "images/husky2.jpg",
+      "images/husky3.jpg"
+    ],
+    "canPurchase": true,
+    "soldOut": false
+  },
+  {
+    "nombre": "Psittacoidea cotorra",
+    "descripcion": "Psittacoidea es una de las tres superfamilias del orden Psittaciformes. Contiene 369 especies de psitacoideos o loros típicos. Los loros típicos son más numerosos y están más extendidos que las otras superfamilias de psitaciformes, las cacatúas y los escasos y confinados loros de Nueva Zelanda, ya que tienen representantes en América, África, Asia y Oceanía (desde Australia hasta la Polinesia).",
+    "categoria": "aves",
+    "precio": 620,
+    "tipo": "oferta",
+    "edad": 5,
+    "municipio": "Barcelona",
+    "publicacion": "05/11/2016 20:19:56",
+    "contacto": "maria",
+    "images": [
+      "images/cotorra1.jpg",
+      "images/cotorra2.jpg"
+    ],
+    "canPurchase": true,
+    "soldOut": false
+  },
+  {
+    "nombre": "Tortuga de agua",
+    "descripcion": "Las tortugas o quelonios (Testudines) forman un orden de reptiles (Sauropsida) caracterizados por tener un tronco ancho y corto, y un caparazón o envoltura que protege los órganos internos de su cuerpo. De su caparazón salen, por delante, la cabeza y las patas delanteras, y por detrás las patas traseras y la cola.",
+    "categoria": "reptiles",
+    "precio": 22,
+    "tipo": "estandar",
+    "edad": 2,
+    "municipio": "Burgos",
+    "publicacion": "05/11/2016 20:09:37",
+    "contacto": "francisco",
+    "images": [
+      "images/tortuga1.jpg",
+      "images/tortuga2.jpg",
+      "images/tortuga3.jpg"
+    ],
+    "canPurchase": true,
+    "soldOut": false
+  },
+  {
+    "nombre": "Lechuza común",
+    "descripcion": "Lechuza es el nombre común de varias aves del orden de las estrigiformes o rapaces nocturnas. Habitualmente designa especies que, a diferencia de los búhos, no tienen plumas alzadas que parecen orejas.",
+    "categoria": "aves",
+    "precio": 325,
+    "tipo": "estandar",
+    "edad": 1,
+    "municipio": "Madrid",
+    "publicacion": "05/11/2016 20:20:27",
+    "contacto": "maria",
+    "images": [
+      "images/lechuza1.jpg",
+      "images/lechuza2.jpg"
+    ],
+    "canPurchase": true,
+    "soldOut": false
+  },
+  {
+    "nombre": "Gato persa blanco",
+    "descripcion": "El Persa es una raza de gato caracterizada por tener una cara ancha y plana y un gran abundante pelaje de variados colores. Son considerados comúnmente como gatos aristocráticos (el 75% de los gatos de pedigree registrados son persas). Los primeros gatos persas fueron introducidos en Italia desde Persia (actual Irán) en la década de 1620 y a sus descendientes se les llamó de muchas maneras. La rama persa actual se desarrolló a finales de 1800 en Inglaterra y proviene del gato de Angora turco.",
+    "categoria": "gatos",
+    "precio": 2650,
+    "tipo": "estandar",
+    "edad": 0,
+    "municipio": "Valencia",
+    "publicacion": "05/11/2016 20:10:52",
+    "contacto": "francisco",
+    "images": [
+    ],
+    "canPurchase": false,
+    "soldOut": false
+  }
+]

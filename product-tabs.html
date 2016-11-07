@@ -1,0 +1,10 @@
+<ul class="nav nav-pills">
+    <li ng-class="{active : tab.isSet(1)}">
+        <a href="" ng-click="tab.setTab(1)">Descripción</a>
+    </li>
+    <li ng-class="{active : tab.isSet(2)}">
+        <a href="" ng-click="tab.setTab(2)">Características</a>
+    </li>
+</ul>
+<product-description ng-if="tab.isSet(1)"></product-description>
+<div ng-if="tab.isSet(2)" product-specs></div>

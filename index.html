@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="petsStore">
+  <head>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="products.js"></script>
+  </head>
+
+  <body ng-controller="StoreController">
+    <!--  Store Header  -->
+    <header>
+      <h1 class="text-center">MaxCotas - AngularJS</h1>
+      <h2 class="text-center">Tienda de mascotas</h2>
+    </header>
+
+    <!--  Products Container  -->
+    <div class="list-group">
+      <!--  Product Container  -->
+      <!--  El producto se muestra si esta en stock  -->
+      <div class="list-group-item" ng-repeat="product in products" 
+           ng-if="!product.soldOut" ng-controller="GalleryController as gallery">
+          
+        <!--  Nombre y precio del producto  -->  
+        <h3>
+            {{product.nombre}}
+            <em class="pull-right">{{product.precio}}€</em>
+        </h3>
+          
+        <!-- Imagen principal -->
+        <div ng-if="product.images[0]">
+            <div class="img-wrap">
+                <img ng-src="{{product.images[gallery.getCurrent()]}}">
+            </div>
+        </div>
+          
+        <!-- Listado de imagenes -->
+        <ul class="img-thumbnails clearfix" ng-if="product.images[0]">
+            <li class="small-image pull-left thumbnail" ng-repeat="img in product.images">
+                <!--  Cambio de imagen principal por la seleccionada por el usuario.  
+                $index nos da el numero de iteracion de cada una de las imagenes
+                ($index va desde 0 a length-1)-->
+                <a href="" ng-click="gallery.setCurrent($index)">
+                    <img ng-src="{{img}}">
+                </a>
+            </li>
+        </ul>
+          
+        <!-- Pestañas de descripcion y características -->
+        <product-tabs></product-tabs>
+          
+        <!-- Boton de añadir al carrito. Solo se muestra si el producto se puede comprar-->  
+        <button ng-if="product.canPurchase" class="btn btn-success">
+            Add to Cart
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
